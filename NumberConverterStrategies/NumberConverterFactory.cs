@@ -20,7 +20,8 @@ namespace DPINT_Wk1_Strategies.NumberConverterStrategies
                 ["Numerical"] = new NumericalNumberConverter(),
                 ["Binary"] = new BinaryNumberConverter(),
                 ["Hexadecimal"] = new HexadecimalNumberConverter(),
-                ["Roman"] = new RomanNumberConverter()
+                ["Roman"] = new RomanNumberConverter(),
+                ["Octal"] = new OctalNumberConverter()
             };
         }
 

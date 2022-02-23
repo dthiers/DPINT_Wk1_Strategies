@@ -81,6 +81,7 @@
     <Compile Include="NumberConverterStrategies\INumberConverter.cs" />
     <Compile Include="NumberConverterStrategies\NumberConverterFactory.cs" />
     <Compile Include="NumberConverterStrategies\NumericalNumberConverter.cs" />
+    <Compile Include="NumberConverterStrategies\OctalNumberConverter.cs" />
     <Compile Include="NumberConverterStrategies\RomanNumberConverter.cs" />
     <Compile Include="ValueConverterViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
