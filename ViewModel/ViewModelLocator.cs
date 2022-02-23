@@ -12,6 +12,7 @@
   See http://www.galasoft.ch/mvvm
 */
 
+using DPINT_Wk1_Strategies.NumberConverterStrategies;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
 using Microsoft.Practices.ServiceLocation;
@@ -41,7 +42,7 @@ namespace DPINT_Wk1_Strategies.ViewModel
             ////    // Create run time view services and models
             ////    SimpleIoc.Default.Register<IDataService, DataService>();
             ////}
-
+            
             SimpleIoc.Default.Register<MainViewModel>();
         }
 
